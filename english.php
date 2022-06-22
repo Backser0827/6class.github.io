@@ -1,0 +1,215 @@
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The OFFCIAIL WEBSITE OF 6-IMPROVE ORGANIZATION.">
+    <meta name="author" content="Atwood Kang">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+    <title>THE 6-IMPROVE ORGANIZATION WEBSITE / English HomePage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/examples/carousel/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">THE 6-IMPROVE ORGANIZATION</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="https://i.6class.club/index.php/about.html">ABOUT</a></li>
+                <li><a href="mailto:hi@6class.club">CONTACT</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MORE <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://i.6class.club">THE BLOGS & NEWS</a></li>
+                    <li><a href="https://liaoyuming.iblogger.org">BENSON LIAO'S WEBSITE</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">MORE</li>
+                    <li><a href="#worker">WORKER</a></li>
+                    <li><a href="#mind">OUR MIND</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="https://me.6class.club">SCORE SYSTEM BY US</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="https://bnpsoft-oss.sh1a.qingstor.com/image-on-blog/v2-821d12af4a46f70add6c3203a4d60854_r.jpg" alt="the screenshot on i.6class.club">
+          <div class="container">
+            <div class="carousel-caption">
+            <h1>LIGHT & CONVENIENT</h1>
+              <p>Imagínate despertarte por la mañana con fuerza.</p>
+              <p><a class="btn btn-lg btn-primary" href="download.png" role="button">DONATE US</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="https://bnpsoft-oss.sh1a.qingstor.com/image-on-blog/at4o8anj.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>HEY, THAT IS: LET'S GO</h1>
+              <p>Puede usarlo donde quiera que vaya, y puede usar las aplicaciones desarrolladas por la organización Sixth Class Impru.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://me.6class.club/functions/Sub-Our-Weekly-News/sub/email.html" role="button">Subscrible Us</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="https://bnpsoft-oss.sh1a.qingstor.com/image-on-blog/ChMlWl50MqmIVTc0AC9Jr2BZjygAANxMgALFRYAL0nH414.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>ONLY 1 THOUSAND YEARS CAN MEET IT!</h1>
+              <p>En raras ocasiones, desarrollamos una aplicación.</p>
+              <p><a class="btn btn-lg btn-primary" href="download.png" role="button">DONATE US</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row" id="worker">
+        <h1>Thank you!</h1>
+        <div class="col-lg-4">
+          <img class="img-circle" src="https://bnpsoft-oss.sh1a.qingstor.com/931ac5a5cb0408589ddc23717ad067d7_1.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Yum'sing Liao</h2>
+          <p>THE GROUP LEADER OF THIS ORG</p>
+          <p><a class="btn btn-default" href="http://liaoyuming.iblogger.org/" role="button">MORE &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="https://bnpsoft-oss.sh1a.qingstor.com/9d4e87450cef45157d19d4a0a32001be_1.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Byrne Zhang</h2>
+          <p>THE ADMINISTRAION INSEPTION OFFICER OF THIS ORG</p>
+          <p><a class="btn btn-default" href="https://6class.club/worker.php?p=zbw" role="button">>MORE &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="https://bnpsoft-oss.sh1a.qingstor.com/a48181b3be589d0df0e6fdd3d545c192_1.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Victoria Bao</h2>
+          <p>THE VICE GROUP LEADER OF THIS ORG</p>
+          <p><a class="btn btn-default" href="https://6class.club/worker.php?p=bsc" role="button">>MORE &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="mind">
+          <h1>That is, our mind.</h1>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">The FIRST should be  <span class="text-muted">SCORE</span></h2>
+          <p class="lead">Los resultados y el rendimiento son lo primero, y solo hacia adelante puedes llegar al final aparentemente inalcanzable.</p>
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">We are chasing <span class="text-muted">value thoery</span></h2>
+          <p class="lead">Valores y Filosofía Primero, son los requisitos básicos para una excelente organización. Lo mantenemos.</p>
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Keeping pace with the <span class="text-muted">constantly changing</span></h2>
+          <p class="lead">El cambio con los tiempos es fundamental, se trata de ti.</p>
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+          <p class="pull-right"><a href="#">Back to top</a> / <a href="index.html">CHANGE TO 简体中文 (ZH-CN)</a></p>
+        <p>Copyright © 2022 初二六班, All Rights Reserved</p>
+        <p>Atwood (Kai), Kang is responsible for the developing work and translating work. Benson (Yuming), Liao is responsible for the photo-editing work.</p>
+        <p>Made by THE 6-IMPROVE ORGANIZATION with full ❤.</p>
+         <p>This page is based on Bootstrap 3.0. Thanks!</p>
+        <a href="mailto:kangkai@6class.club">CONTACT / </a>
+        <a href="mailto:hi@6class.club">REPORT / </a>
+        <a href="mailto:liaoyuming@6class.club">MAIL OF BENSON LIAO</a>
+      </footer>
+
+    </div><!-- /.container --
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://fastly.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->    <script src="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://fastly.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.35/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://bnpsoft-oss.sh1a.qingstor.com/fastload.js"></script>
+  </body>
+</html>
